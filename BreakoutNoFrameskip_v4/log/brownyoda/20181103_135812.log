@@ -1,0 +1,65 @@
+2018-11-03 13:58:12,568 - atari_wrapper - INFO - ALE lives: 5
+2018-11-03 13:58:12,568 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - Gym action_space: Discrete(4)
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - FireResetEnv: True
+2018-11-03 13:58:12,569 - atari_wrapper - INFO - WarpFrame: True
+2018-11-03 13:58:12,570 - atari_wrapper - INFO - HumanDemoEnv: True
+2018-11-03 13:58:12,916 - game_state - INFO - ['NOOP', 'FIRE', 'RIGHT', 'LEFT']
+2018-11-03 13:59:30,527 - collect_demo - INFO - Duration: 0:01:16.602505
+2018-11-03 13:59:30,527 - collect_demo - INFO - Total steps: 4596
+2018-11-03 13:59:30,527 - collect_demo - INFO - Total reward: 59.0
+2018-11-03 13:59:30,527 - collect_demo - INFO - Total Replay memory saved: 1173
+2018-11-03 13:59:30,528 - replay_memory - INFO - Resizing replay memory...
+2018-11-03 13:59:30,528 - replay_memory - DEBUG - Current specs: size=1173 max_steps=100000
+2018-11-03 13:59:30,528 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2018-11-03 13:59:30,528 - replay_memory - DEBUG -     actions shape: (100000,)
+2018-11-03 13:59:30,528 - replay_memory - DEBUG -     rewards shape: (100000,)
+2018-11-03 13:59:30,528 - replay_memory - DEBUG -     terminal shape: (100000,)
+2018-11-03 13:59:30,528 - replay_memory - DEBUG -     lives shape: (100000,)
+2018-11-03 13:59:30,529 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2018-11-03 13:59:30,635 - replay_memory - INFO - Resizing completed!
+2018-11-03 13:59:30,636 - replay_memory - DEBUG - Updated specs: size=1173 max_steps=1173
+2018-11-03 13:59:30,636 - replay_memory - DEBUG -     images shape: (1173, 84, 84)
+2018-11-03 13:59:30,636 - replay_memory - DEBUG -     actions shape: (1173,)
+2018-11-03 13:59:30,636 - replay_memory - DEBUG -     rewards shape: (1173,)
+2018-11-03 13:59:30,636 - replay_memory - DEBUG -     terminal shape: (1173,)
+2018-11-03 13:59:30,636 - replay_memory - DEBUG -     lives shape: (1173,)
+2018-11-03 13:59:30,637 - replay_memory - DEBUG -     full_state shape: (1173, 1021)
+2018-11-03 13:59:30,639 - replay_memory - INFO - Compressing and saving replay memory...
+2018-11-03 13:59:30,692 - replay_memory - INFO - Compressed and saved replay memory
+2018-11-03 14:00:38,290 - collect_demo - INFO - Duration: 0:01:06.085892
+2018-11-03 14:00:38,290 - collect_demo - INFO - Total steps: 3965
+2018-11-03 14:00:38,290 - collect_demo - INFO - Total reward: 39.0
+2018-11-03 14:00:38,290 - collect_demo - INFO - Total Replay memory saved: 1015
+2018-11-03 14:00:38,291 - replay_memory - INFO - Resizing replay memory...
+2018-11-03 14:00:38,291 - replay_memory - DEBUG - Current specs: size=1015 max_steps=100000
+2018-11-03 14:00:38,291 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2018-11-03 14:00:38,291 - replay_memory - DEBUG -     actions shape: (100000,)
+2018-11-03 14:00:38,291 - replay_memory - DEBUG -     rewards shape: (100000,)
+2018-11-03 14:00:38,291 - replay_memory - DEBUG -     terminal shape: (100000,)
+2018-11-03 14:00:38,291 - replay_memory - DEBUG -     lives shape: (100000,)
+2018-11-03 14:00:38,292 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2018-11-03 14:00:38,398 - replay_memory - INFO - Resizing completed!
+2018-11-03 14:00:38,398 - replay_memory - DEBUG - Updated specs: size=1015 max_steps=1015
+2018-11-03 14:00:38,399 - replay_memory - DEBUG -     images shape: (1015, 84, 84)
+2018-11-03 14:00:38,399 - replay_memory - DEBUG -     actions shape: (1015,)
+2018-11-03 14:00:38,399 - replay_memory - DEBUG -     rewards shape: (1015,)
+2018-11-03 14:00:38,399 - replay_memory - DEBUG -     terminal shape: (1015,)
+2018-11-03 14:00:38,399 - replay_memory - DEBUG -     lives shape: (1015,)
+2018-11-03 14:00:38,399 - replay_memory - DEBUG -     full_state shape: (1015, 1021)
+2018-11-03 14:00:38,401 - replay_memory - INFO - Compressing and saving replay memory...
+2018-11-03 14:00:38,446 - replay_memory - INFO - Compressed and saved replay memory
+2018-11-03 14:00:38,465 - collect_demo - DEBUG - steps / episode: [4596, 3965]
+2018-11-03 14:00:38,465 - collect_demo - DEBUG - reward / episode: [59.0, 39.0]
+2018-11-03 14:00:38,465 - collect_demo - DEBUG - mean steps: 4280.5 / mean reward: 49.0
+2018-11-03 14:00:38,465 - collect_demo - DEBUG - duration / episode:
+2018-11-03 14:00:38,465 - collect_demo - DEBUG -     0:01:16.602505
+2018-11-03 14:00:38,465 - collect_demo - DEBUG -     0:01:06.085892
+2018-11-03 14:00:38,466 - collect_demo - DEBUG - total duration: 0:02:22.688397
+2018-11-03 14:00:38,466 - collect_demo - DEBUG - mem size / episode: [1173, 1015]
+2018-11-03 14:00:38,466 - collect_demo - DEBUG - total memory size: 2188
+2018-11-03 14:00:38,466 - collect_demo - DEBUG - total # of episodes: 2
