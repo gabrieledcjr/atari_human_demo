@@ -1,0 +1,262 @@
+2020-09-21 00:33:18,375 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:33:18,376 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:33:18,376 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:33:18,376 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:33:18,376 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:33:18,377 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:33:18,377 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:33:18,377 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:33:18,377 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:33:18,377 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:33:18,377 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:33:18,399 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:33:18,448 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:34:19,693 - collect_demo - INFO - Duration: 0:01:01.173813
+2020-09-21 00:34:19,695 - collect_demo - INFO - Total steps: 3536
+2020-09-21 00:34:19,696 - collect_demo - INFO - Total reward: 4300.0
+2020-09-21 00:34:19,697 - collect_demo - INFO - Total Replay memory saved: 903
+2020-09-21 00:34:19,698 - replay_memory - INFO - Resizing replay memory...
+2020-09-21 00:34:19,699 - replay_memory - DEBUG - Current specs: size=903 max_steps=100000
+2020-09-21 00:34:19,699 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2020-09-21 00:34:19,700 - replay_memory - DEBUG -     actions shape: (100000,)
+2020-09-21 00:34:19,701 - replay_memory - DEBUG -     rewards shape: (100000,)
+2020-09-21 00:34:19,702 - replay_memory - DEBUG -     terminal shape: (100000,)
+2020-09-21 00:34:19,703 - replay_memory - DEBUG -     lives shape: (100000,)
+2020-09-21 00:34:19,704 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2020-09-21 00:34:19,799 - replay_memory - INFO - Resizing completed!
+2020-09-21 00:34:19,799 - replay_memory - DEBUG - Updated specs: size=903 max_steps=903
+2020-09-21 00:34:19,799 - replay_memory - DEBUG -     images shape: (903, 84, 84)
+2020-09-21 00:34:19,800 - replay_memory - DEBUG -     actions shape: (903,)
+2020-09-21 00:34:19,800 - replay_memory - DEBUG -     rewards shape: (903,)
+2020-09-21 00:34:19,800 - replay_memory - DEBUG -     terminal shape: (903,)
+2020-09-21 00:34:19,800 - replay_memory - DEBUG -     lives shape: (903,)
+2020-09-21 00:34:19,801 - replay_memory - DEBUG -     full_state shape: (903, 1021)
+2020-09-21 00:34:19,802 - replay_memory - INFO - Compressing and saving replay memory...
+2020-09-21 00:34:19,836 - replay_memory - INFO - Compressed and saved replay memory
+2020-09-21 00:34:20,975 - collect_demo - DEBUG - steps / episode: [3536]
+2020-09-21 00:34:20,977 - collect_demo - DEBUG - reward / episode: [4300.0]
+2020-09-21 00:34:20,978 - collect_demo - DEBUG - mean steps: 3536.0 / mean reward: 4300.0
+2020-09-21 00:34:20,980 - collect_demo - DEBUG - duration / episode:
+2020-09-21 00:34:20,980 - collect_demo - DEBUG -     0:01:01.173813
+2020-09-21 00:34:20,981 - collect_demo - DEBUG - total duration: 0:01:01.173813
+2020-09-21 00:34:20,982 - collect_demo - DEBUG - mem size / episode: [903]
+2020-09-21 00:34:20,983 - collect_demo - DEBUG - total memory size: 903
+2020-09-21 00:34:20,984 - collect_demo - DEBUG - total # of episodes: 1
+2020-09-21 00:38:26,122 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:38:26,122 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:38:26,123 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:38:26,123 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:38:26,123 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:38:26,123 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:38:26,123 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:38:26,124 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:38:26,124 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:38:26,124 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:38:26,124 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:38:26,147 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:38:26,211 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:39:46,709 - collect_demo - INFO - Duration: 0:01:20.435187
+2020-09-21 00:39:52,103 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:39:52,104 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:39:52,104 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:39:52,104 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:39:52,104 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:39:52,104 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:39:52,105 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:39:52,105 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:39:52,105 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:39:52,105 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:39:52,106 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:39:52,127 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:39:52,167 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:40:54,036 - collect_demo - INFO - Duration: 0:01:01.820049
+2020-09-21 00:40:55,563 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:40:55,563 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:40:55,563 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:40:55,564 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:40:55,564 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:40:55,564 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:40:55,564 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:40:55,564 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:40:55,565 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:40:55,565 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:40:55,565 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:40:55,587 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:40:55,645 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:42:32,531 - collect_demo - INFO - Duration: 0:01:36.834197
+2020-09-21 00:42:37,111 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:42:37,111 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:42:37,111 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:42:37,112 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:42:37,112 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:42:37,112 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:42:37,112 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:42:37,112 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:42:37,113 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:42:37,113 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:42:37,113 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:42:37,135 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:42:37,202 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:44:16,820 - collect_demo - INFO - Duration: 0:01:39.544693
+2020-09-21 00:44:16,822 - collect_demo - INFO - Total steps: 5866
+2020-09-21 00:44:16,823 - collect_demo - INFO - Total reward: 11050.0
+2020-09-21 00:44:16,824 - collect_demo - INFO - Total Replay memory saved: 1486
+2020-09-21 00:44:16,825 - replay_memory - INFO - Resizing replay memory...
+2020-09-21 00:44:16,826 - replay_memory - DEBUG - Current specs: size=1486 max_steps=100000
+2020-09-21 00:44:16,827 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2020-09-21 00:44:16,828 - replay_memory - DEBUG -     actions shape: (100000,)
+2020-09-21 00:44:16,829 - replay_memory - DEBUG -     rewards shape: (100000,)
+2020-09-21 00:44:16,830 - replay_memory - DEBUG -     terminal shape: (100000,)
+2020-09-21 00:44:16,832 - replay_memory - DEBUG -     lives shape: (100000,)
+2020-09-21 00:44:16,833 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2020-09-21 00:44:16,934 - replay_memory - INFO - Resizing completed!
+2020-09-21 00:44:16,934 - replay_memory - DEBUG - Updated specs: size=1486 max_steps=1486
+2020-09-21 00:44:16,935 - replay_memory - DEBUG -     images shape: (1486, 84, 84)
+2020-09-21 00:44:16,935 - replay_memory - DEBUG -     actions shape: (1486,)
+2020-09-21 00:44:16,935 - replay_memory - DEBUG -     rewards shape: (1486,)
+2020-09-21 00:44:16,935 - replay_memory - DEBUG -     terminal shape: (1486,)
+2020-09-21 00:44:16,936 - replay_memory - DEBUG -     lives shape: (1486,)
+2020-09-21 00:44:16,936 - replay_memory - DEBUG -     full_state shape: (1486, 1021)
+2020-09-21 00:44:16,937 - replay_memory - INFO - Compressing and saving replay memory...
+2020-09-21 00:44:16,994 - replay_memory - INFO - Compressed and saved replay memory
+2020-09-21 00:44:17,754 - collect_demo - DEBUG - steps / episode: [5866]
+2020-09-21 00:44:17,757 - collect_demo - DEBUG - reward / episode: [11050.0]
+2020-09-21 00:44:17,758 - collect_demo - DEBUG - mean steps: 5866.0 / mean reward: 11050.0
+2020-09-21 00:44:17,759 - collect_demo - DEBUG - duration / episode:
+2020-09-21 00:44:17,761 - collect_demo - DEBUG -     0:01:39.544693
+2020-09-21 00:44:17,762 - collect_demo - DEBUG - total duration: 0:01:39.544693
+2020-09-21 00:44:17,763 - collect_demo - DEBUG - mem size / episode: [1486]
+2020-09-21 00:44:17,764 - collect_demo - DEBUG - total memory size: 1486
+2020-09-21 00:44:17,765 - collect_demo - DEBUG - total # of episodes: 1
+2020-09-21 00:44:20,903 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:44:20,904 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:44:20,904 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:44:20,904 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:44:20,904 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:44:20,904 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:44:20,905 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:44:20,905 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:44:20,905 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:44:20,905 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:44:20,906 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:44:20,927 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:44:20,998 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:46:17,626 - collect_demo - INFO - Duration: 0:01:56.562715
+2020-09-21 00:46:17,628 - collect_demo - INFO - Total steps: 6642
+2020-09-21 00:46:17,630 - collect_demo - INFO - Total reward: 11400.0
+2020-09-21 00:46:17,631 - collect_demo - INFO - Total Replay memory saved: 1680
+2020-09-21 00:46:17,633 - replay_memory - INFO - Resizing replay memory...
+2020-09-21 00:46:17,634 - replay_memory - DEBUG - Current specs: size=1680 max_steps=100000
+2020-09-21 00:46:17,635 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2020-09-21 00:46:17,636 - replay_memory - DEBUG -     actions shape: (100000,)
+2020-09-21 00:46:17,637 - replay_memory - DEBUG -     rewards shape: (100000,)
+2020-09-21 00:46:17,638 - replay_memory - DEBUG -     terminal shape: (100000,)
+2020-09-21 00:46:17,639 - replay_memory - DEBUG -     lives shape: (100000,)
+2020-09-21 00:46:17,640 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2020-09-21 00:46:17,743 - replay_memory - INFO - Resizing completed!
+2020-09-21 00:46:17,744 - replay_memory - DEBUG - Updated specs: size=1680 max_steps=1680
+2020-09-21 00:46:17,744 - replay_memory - DEBUG -     images shape: (1680, 84, 84)
+2020-09-21 00:46:17,744 - replay_memory - DEBUG -     actions shape: (1680,)
+2020-09-21 00:46:17,744 - replay_memory - DEBUG -     rewards shape: (1680,)
+2020-09-21 00:46:17,745 - replay_memory - DEBUG -     terminal shape: (1680,)
+2020-09-21 00:46:17,745 - replay_memory - DEBUG -     lives shape: (1680,)
+2020-09-21 00:46:17,745 - replay_memory - DEBUG -     full_state shape: (1680, 1021)
+2020-09-21 00:46:17,746 - replay_memory - INFO - Compressing and saving replay memory...
+2020-09-21 00:46:17,810 - replay_memory - INFO - Compressed and saved replay memory
+2020-09-21 00:46:19,640 - collect_demo - DEBUG - steps / episode: [6642]
+2020-09-21 00:46:19,642 - collect_demo - DEBUG - reward / episode: [11400.0]
+2020-09-21 00:46:19,643 - collect_demo - DEBUG - mean steps: 6642.0 / mean reward: 11400.0
+2020-09-21 00:46:19,644 - collect_demo - DEBUG - duration / episode:
+2020-09-21 00:46:19,645 - collect_demo - DEBUG -     0:01:56.562715
+2020-09-21 00:46:19,646 - collect_demo - DEBUG - total duration: 0:01:56.562715
+2020-09-21 00:46:19,647 - collect_demo - DEBUG - mem size / episode: [1680]
+2020-09-21 00:46:19,648 - collect_demo - DEBUG - total memory size: 1680
+2020-09-21 00:46:19,648 - collect_demo - DEBUG - total # of episodes: 1
+2020-09-21 00:46:21,416 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:46:21,417 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:46:21,417 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:46:21,417 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:46:21,417 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:46:21,417 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:46:21,418 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:46:21,418 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:46:21,418 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:46:21,418 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:46:21,419 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:46:21,443 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:46:21,508 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:47:37,834 - collect_demo - INFO - Duration: 0:01:16.256843
+2020-09-21 00:47:37,834 - collect_demo - INFO - Total steps: 4433
+2020-09-21 00:47:37,835 - collect_demo - INFO - Total reward: 7600.0
+2020-09-21 00:47:37,835 - collect_demo - INFO - Total Replay memory saved: 1127
+2020-09-21 00:47:37,835 - replay_memory - INFO - Resizing replay memory...
+2020-09-21 00:47:37,836 - replay_memory - DEBUG - Current specs: size=1127 max_steps=100000
+2020-09-21 00:47:37,836 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2020-09-21 00:47:37,836 - replay_memory - DEBUG -     actions shape: (100000,)
+2020-09-21 00:47:37,837 - replay_memory - DEBUG -     rewards shape: (100000,)
+2020-09-21 00:47:37,837 - replay_memory - DEBUG -     terminal shape: (100000,)
+2020-09-21 00:47:37,837 - replay_memory - DEBUG -     lives shape: (100000,)
+2020-09-21 00:47:37,837 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2020-09-21 00:47:37,921 - replay_memory - INFO - Resizing completed!
+2020-09-21 00:47:37,921 - replay_memory - DEBUG - Updated specs: size=1127 max_steps=1127
+2020-09-21 00:47:37,921 - replay_memory - DEBUG -     images shape: (1127, 84, 84)
+2020-09-21 00:47:37,922 - replay_memory - DEBUG -     actions shape: (1127,)
+2020-09-21 00:47:37,922 - replay_memory - DEBUG -     rewards shape: (1127,)
+2020-09-21 00:47:37,922 - replay_memory - DEBUG -     terminal shape: (1127,)
+2020-09-21 00:47:37,922 - replay_memory - DEBUG -     lives shape: (1127,)
+2020-09-21 00:47:37,923 - replay_memory - DEBUG -     full_state shape: (1127, 1021)
+2020-09-21 00:47:37,924 - replay_memory - INFO - Compressing and saving replay memory...
+2020-09-21 00:47:37,976 - replay_memory - INFO - Compressed and saved replay memory
+2020-09-21 00:47:39,015 - collect_demo - DEBUG - steps / episode: [4433]
+2020-09-21 00:47:39,017 - collect_demo - DEBUG - reward / episode: [7600.0]
+2020-09-21 00:47:39,018 - collect_demo - DEBUG - mean steps: 4433.0 / mean reward: 7600.0
+2020-09-21 00:47:39,019 - collect_demo - DEBUG - duration / episode:
+2020-09-21 00:47:39,020 - collect_demo - DEBUG -     0:01:16.256843
+2020-09-21 00:47:39,021 - collect_demo - DEBUG - total duration: 0:01:16.256843
+2020-09-21 00:47:39,022 - collect_demo - DEBUG - mem size / episode: [1127]
+2020-09-21 00:47:39,023 - collect_demo - DEBUG - total memory size: 1127
+2020-09-21 00:47:39,024 - collect_demo - DEBUG - total # of episodes: 1
+2020-09-21 00:47:40,293 - atari_wrapper - INFO - ALE lives: 4
+2020-09-21 00:47:40,294 - atari_wrapper - INFO - ALE frameskip: 1 / 1
+2020-09-21 00:47:40,294 - atari_wrapper - INFO - ALE repeat_action_probability: 0.0
+2020-09-21 00:47:40,294 - atari_wrapper - INFO - Gym action_space: Discrete(6)
+2020-09-21 00:47:40,294 - atari_wrapper - INFO - AtariWrapper frameskip: 1
+2020-09-21 00:47:40,294 - atari_wrapper - INFO - AtariWrapper noop_max: 30
+2020-09-21 00:47:40,295 - atari_wrapper - INFO - EpisodicLifeEnv: True
+2020-09-21 00:47:40,295 - atari_wrapper - INFO - FireResetEnv: True
+2020-09-21 00:47:40,295 - atari_wrapper - INFO - WarpFrame: True
+2020-09-21 00:47:40,296 - atari_wrapper - INFO - ALE sound: False
+2020-09-21 00:47:40,296 - atari_wrapper - INFO - HumanDemoEnv: True
+2020-09-21 00:47:40,319 - atari_wrapper - INFO - Joystick: Sony Interactive Entertainment Wireless Controller
+2020-09-21 00:47:40,378 - game_state - INFO - ['NOOP', 'FIRE', 'UP', 'RIGHT', 'LEFT', 'DOWN']
+2020-09-21 00:48:32,138 - collect_demo - INFO - Duration: 0:00:51.695085
+2020-09-21 00:48:32,140 - collect_demo - INFO - Total steps: 2954
+2020-09-21 00:48:32,142 - collect_demo - INFO - Total reward: 4000.0
+2020-09-21 00:48:32,143 - collect_demo - INFO - Total Replay memory saved: 758
+2020-09-21 00:48:32,143 - replay_memory - INFO - Resizing replay memory...
+2020-09-21 00:48:32,143 - replay_memory - DEBUG - Current specs: size=758 max_steps=100000
+2020-09-21 00:48:32,144 - replay_memory - DEBUG -     images shape: (100000, 84, 84)
+2020-09-21 00:48:32,144 - replay_memory - DEBUG -     actions shape: (100000,)
+2020-09-21 00:48:32,144 - replay_memory - DEBUG -     rewards shape: (100000,)
+2020-09-21 00:48:32,145 - replay_memory - DEBUG -     terminal shape: (100000,)
+2020-09-21 00:48:32,145 - replay_memory - DEBUG -     lives shape: (100000,)
+2020-09-21 00:48:32,145 - replay_memory - DEBUG -     full_state shape: (100000, 1021)
+2020-09-21 00:48:32,233 - replay_memory - INFO - Resizing completed!
+2020-09-21 00:48:32,234 - replay_memory - DEBUG - Updated specs: size=758 max_steps=758
+2020-09-21 00:48:32,234 - replay_memory - DEBUG -     images shape: (758, 84, 84)
+2020-09-21 00:48:32,234 - replay_memory - DEBUG -     actions shape: (758,)
+2020-09-21 00:48:32,234 - replay_memory - DEBUG -     rewards shape: (758,)
+2020-09-21 00:48:32,235 - replay_memory - DEBUG -     terminal shape: (758,)
+2020-09-21 00:48:32,235 - replay_memory - DEBUG -     lives shape: (758,)
+2020-09-21 00:48:32,235 - replay_memory - DEBUG -     full_state shape: (758, 1021)
+2020-09-21 00:48:32,236 - replay_memory - INFO - Compressing and saving replay memory...
+2020-09-21 00:48:32,266 - replay_memory - INFO - Compressed and saved replay memory
+2020-09-21 00:48:32,974 - collect_demo - DEBUG - steps / episode: [2954]
+2020-09-21 00:48:32,977 - collect_demo - DEBUG - reward / episode: [4000.0]
+2020-09-21 00:48:32,979 - collect_demo - DEBUG - mean steps: 2954.0 / mean reward: 4000.0
+2020-09-21 00:48:32,980 - collect_demo - DEBUG - duration / episode:
+2020-09-21 00:48:32,981 - collect_demo - DEBUG -     0:00:51.695085
+2020-09-21 00:48:32,982 - collect_demo - DEBUG - total duration: 0:00:51.695085
+2020-09-21 00:48:32,984 - collect_demo - DEBUG - mem size / episode: [758]
+2020-09-21 00:48:32,985 - collect_demo - DEBUG - total memory size: 758
+2020-09-21 00:48:32,986 - collect_demo - DEBUG - total # of episodes: 1
